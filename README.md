@@ -1,8 +1,8 @@
 # 🚀 GitHub Repository Quality & QA Checklist
 
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
-![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)](https://github.com/im-ahmed-hasan?tab=repositories)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-blue?style=for-the-badge)](https://www.ahmed-hasan.wuaze.com)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://github.com/im-ahmed-hasan/github-repo-setup-qa-guide/blob/main/LICENSE)
 
 A **comprehensive Quality Assurance (QA) checklist** for GitHub repositories —  
 helping you maintain **high code quality**, **streamline workflows**, and **ensure robust security**.
