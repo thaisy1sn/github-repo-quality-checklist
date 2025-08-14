@@ -31,8 +31,11 @@ It helps:
 
 ## 🛠 Comprehensive GitHub Repository Health & QA Checklist
 
-<details>
-<summary>![Repository Setup](https://img.shields.io/badge/⚙️%20Repository%20Setup-grey?style=for-the-badge)</summary>
+<details open>
+<summary>
+<strong>⚙️ Repository Setup</strong>  
+<img src="https://img.shields.io/badge/Repository%20Setup-grey?style=for-the-badge" />
+</summary>
 
 - [ ] Repository visibility (public/private) set correctly.  
 - [ ] `README.md` with setup instructions and project details.  
@@ -42,8 +45,11 @@ It helps:
 - [ ] `LICENSE` file in place.
 </details>
 
-<details>
-<summary>![Code Quality](https://img.shields.io/badge/🧑‍💻%20Code%20Quality-blue?style=for-the-badge)</summary>
+<details open>
+<summary>
+<strong>🧑‍💻 Code Quality</strong>  
+<img src="https://img.shields.io/badge/Code%20Quality-blue?style=for-the-badge" />
+</summary>
 
 - [ ] Follow coding standards (ESLint, Prettier, PEP8).  
 - [ ] Commits follow standard format (`feat:`, `fix:`, `chore:`).  
@@ -54,8 +60,11 @@ It helps:
 - [ ] Handles edge cases and errors.
 </details>
 
-<details>
-<summary>![Testing & Automation](https://img.shields.io/badge/🧪%20Testing%20&%20Automation-purple?style=for-the-badge)</summary>
+<details open>
+<summary>
+<strong>🧪 Testing & Automation</strong>  
+<img src="https://img.shields.io/badge/Testing%20&%20Automation-purple?style=for-the-badge" />
+</summary>
 
 - [ ] Unit tests for critical functionality.  
 - [ ] Integration tests where applicable.  
@@ -65,8 +74,11 @@ It helps:
 - [ ] Manual/exploratory testing for key scenarios.
 </details>
 
-<details>
-<summary>![Security](https://img.shields.io/badge/🔒%20Security%20&%20Dependencies-red?style=for-the-badge)</summary>
+<details open>
+<summary>
+<strong>🔒 Security & Dependency Management</strong>  
+<img src="https://img.shields.io/badge/Security%20&%20Dependencies-red?style=for-the-badge" />
+</summary>
 
 - [ ] Dependabot or similar for dependency updates.  
 - [ ] Vulnerability scans (`npm audit`, `pip-audit`).  
@@ -74,8 +86,11 @@ It helps:
 - [ ] Secret scanning & code scanning enabled.
 </details>
 
-<details>
-<summary>![Docs & Releases](https://img.shields.io/badge/📄%20Docs%20&%20Releases-orange?style=for-the-badge)</summary>
+<details open>
+<summary>
+<strong>📄 Documentation & Releases</strong>  
+<img src="https://img.shields.io/badge/Docs%20&%20Releases-orange?style=for-the-badge" />
+</summary>
 
 - [ ] Updated `CHANGELOG.md`.  
 - [ ] GitHub Releases for versioning.  
@@ -83,8 +98,11 @@ It helps:
 - [ ] API documentation (if applicable).
 </details>
 
-<details>
-<summary>![PRs & Reviews](https://img.shields.io/badge/🤝%20PRs%20&%20Reviews-green?style=for-the-badge)</summary>
+<details open>
+<summary>
+<strong>🤝 Pull Requests & Code Reviews</strong>  
+<img src="https://img.shields.io/badge/PRs%20&%20Reviews-green?style=for-the-badge" />
+</summary>
 
 - [ ] PR template (`PULL_REQUEST_TEMPLATE.md`) exists.  
 - [ ] PRs have assigned reviewers.  
@@ -101,11 +119,10 @@ It helps:
 
 ### 1️⃣ Pull Request Templates
 Create `.github/PULL_REQUEST_TEMPLATE.md`:
-
 ```markdown
 ## Description
 Provide a clear and concise description of your changes.
-
+```
 ---
 
 ## QA & PR Checklist:
@@ -116,10 +133,9 @@ Provide a clear and concise description of your changes.
 - [ ] I have checked for potential security vulnerabilities.
 - [ ] My commit messages are clear and follow the project's format.
 
-
-```
-
-### 2️⃣ GitHub Actions:
+---
+## 2️⃣ GitHub Actions:
+Use GitHub Actions to:
 
 - Automatically add contextual QA checklists.
 
@@ -127,16 +143,26 @@ Provide a clear and concise description of your changes.
 
 ## 🚀 Getting Started
 
-1. Define a basic checklist for your project.
+A GitHub QA checklist helps your team maintain high code quality and consistency. Follow these steps to get started:
 
-2. Collaborate with your team to refine and expand it.
+1. **Define a basic checklist**  
+   Start by outlining the essential QA steps for your project.
 
-3. Continuously update as best practices evolve.
+2. **Refine and expand it with your team**  
+   Collaborate with your team to include project-specific best practices.
 
-Implementing a GitHub QA checklist is a simple yet powerful way to:
+3. **Continuously update it**  
+   As your project evolves, keep improving the checklist to reflect new learnings and standards.
 
-- Improve code quality
+---
 
-- Streamline development
+## 💡 **Why use a GitHub QA checklist?**  
+Implementing a QA checklist is a simple yet powerful way to:  
 
+- Improve code quality  
+- Streamline development  
 - Build more reliable software
+
+<div align="left">
+<img src="https://github.com/im-ahmed-hasan/shape-shift/blob/main/assets/snake.svg" alt="Snake animation" />
+</div>  
